@@ -2,7 +2,7 @@
 
 internal class MedianaSendSmsRequest
 {
-    public MedianaSmsType Type { get; set; }
+    public string Type { get; set; } = null!;
     public List<string> Recipients { get; set; } = null!;
     public string MessageText { get; set; } = null!;
 }

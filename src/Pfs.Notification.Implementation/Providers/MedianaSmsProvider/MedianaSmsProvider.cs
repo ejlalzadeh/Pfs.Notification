@@ -23,7 +23,7 @@ internal class MedianaSmsProvider : ISmsProvider
 
         MedianaSendSmsRequest request = new()
         {
-            Type = MedianaSmsType.Informational,
+            Type = "Informational",
             MessageText = message,
             Recipients = new List<string> { recipientNumber }
         };
